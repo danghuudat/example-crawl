@@ -1,0 +1,104 @@
+[2021-06-08 04:20:20] local.ERROR: The current node list is empty. {"exception":"[object] (InvalidArgumentException(code: 0): The current node list is empty. at F:\\Xampp\\htdocs\\example-crawl\\vendor\\symfony\\dom-crawler\\Crawler.php:614)
+[stacktrace]
+#0 F:\\Xampp\\htdocs\\example-crawl\\app\\Scraper\\TGDD.php(45): Symfony\\Component\\DomCrawler\\Crawler->text()
+#1 F:\\Xampp\\htdocs\\example-crawl\\vendor\\symfony\\dom-crawler\\Crawler.php(352): App\\Scraper\\TGDD->App\\Scraper\\{closure}(Object(Symfony\\Component\\DomCrawler\\Crawler), 0)
+#2 F:\\Xampp\\htdocs\\example-crawl\\app\\Scraper\\TGDD.php(59): Symfony\\Component\\DomCrawler\\Crawler->each(Object(Closure))
+#3 F:\\Xampp\\htdocs\\example-crawl\\app\\Console\\Commands\\ScrapeCommand.php(42): App\\Scraper\\TGDD->scrape()
+#4 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Console\\Commands\\ScrapeCommand->handle()
+#5 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#8 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(614): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#9 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(136): Illuminate\\Container\\Container->call(Array)
+#10 F:\\Xampp\\htdocs\\example-crawl\\vendor\\symfony\\console\\Command\\Command.php(288): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#11 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#12 F:\\Xampp\\htdocs\\example-crawl\\vendor\\symfony\\console\\Application.php(974): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 F:\\Xampp\\htdocs\\example-crawl\\vendor\\symfony\\console\\Application.php(291): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\ScrapeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 F:\\Xampp\\htdocs\\example-crawl\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 F:\\Xampp\\htdocs\\example-crawl\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 {main}
+"} 
+[2021-06-08 04:21:11] local.ERROR: The current node list is empty. {"exception":"[object] (InvalidArgumentException(code: 0): The current node list is empty. at F:\\Xampp\\htdocs\\example-crawl\\vendor\\symfony\\dom-crawler\\Crawler.php:614)
+[stacktrace]
+#0 F:\\Xampp\\htdocs\\example-crawl\\app\\Scraper\\TGDD.php(45): Symfony\\Component\\DomCrawler\\Crawler->text()
+#1 F:\\Xampp\\htdocs\\example-crawl\\vendor\\symfony\\dom-crawler\\Crawler.php(352): App\\Scraper\\TGDD->App\\Scraper\\{closure}(Object(Symfony\\Component\\DomCrawler\\Crawler), 0)
+#2 F:\\Xampp\\htdocs\\example-crawl\\app\\Scraper\\TGDD.php(60): Symfony\\Component\\DomCrawler\\Crawler->each(Object(Closure))
+#3 F:\\Xampp\\htdocs\\example-crawl\\app\\Console\\Commands\\ScrapeCommand.php(42): App\\Scraper\\TGDD->scrape()
+#4 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Console\\Commands\\ScrapeCommand->handle()
+#5 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#8 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(614): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#9 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(136): Illuminate\\Container\\Container->call(Array)
+#10 F:\\Xampp\\htdocs\\example-crawl\\vendor\\symfony\\console\\Command\\Command.php(288): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#11 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#12 F:\\Xampp\\htdocs\\example-crawl\\vendor\\symfony\\console\\Application.php(974): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 F:\\Xampp\\htdocs\\example-crawl\\vendor\\symfony\\console\\Application.php(291): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\ScrapeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 F:\\Xampp\\htdocs\\example-crawl\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 F:\\Xampp\\htdocs\\example-crawl\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 F:\\Xampp\\htdocs\\example-crawl\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 {main}
+"} 
+[2021-06-08 04:21:39] local.INFO: Samsung Galaxy S21 5G  
+[2021-06-08 04:21:39] local.INFO: 17.990.000₫  
+[2021-06-08 04:21:39] local.INFO: 2  
+[2021-06-08 04:21:39] local.INFO: iPhone 12 64GB  
+[2021-06-08 04:21:39] local.INFO: 20.390.000₫  
+[2021-06-08 04:21:39] local.INFO: 2  
+[2021-06-08 04:21:39] local.INFO: Xiaomi Redmi Note 10 5G 8GB  
+[2021-06-08 04:21:39] local.INFO: 5.690.000₫  
+[2021-06-08 04:21:39] local.INFO: 2  
+[2021-06-08 04:21:39] local.INFO: OPPO A93  
+[2021-06-08 04:21:39] local.INFO: 5.990.000₫  
+[2021-06-08 04:21:39] local.INFO: 1.5  
+[2021-06-08 04:21:39] local.INFO: Samsung Galaxy A02  
+[2021-06-08 04:21:39] local.INFO: 1.990.000₫  
+[2021-06-08 04:21:39] local.INFO: 1.5  
+[2021-06-08 04:21:39] local.INFO: OPPO Reno5  
+[2021-06-08 04:21:39] local.INFO: 8.690.000₫  
+[2021-06-08 04:21:39] local.INFO: 2  
+[2021-06-08 04:21:39] local.INFO: iPhone 11 64GB  
+[2021-06-08 04:21:39] local.INFO: 17.490.000₫  
+[2021-06-08 04:21:39] local.INFO: 2  
+[2021-06-08 04:21:39] local.INFO: Vivo Y51 (2020)  
+[2021-06-08 04:21:39] local.INFO: 5.790.000₫  
+[2021-06-08 04:21:39] local.INFO: 1.5  
+[2021-06-08 04:21:39] local.INFO: Realme C12  
+[2021-06-08 04:21:39] local.INFO: 3.290.000₫  
+[2021-06-08 04:21:39] local.INFO: 2  
+[2021-06-08 04:21:39] local.INFO: Samsung Galaxy M51  
+[2021-06-08 04:21:39] local.INFO: 8.490.000₫  
+[2021-06-08 04:21:39] local.INFO: 1.5  
+[2021-06-08 04:21:39] local.INFO: OPPO Reno5 Marvel  
+[2021-06-08 04:21:39] local.INFO: 8.230.000₫  
+[2021-06-08 04:21:39] local.INFO: 0  
+[2021-06-08 04:21:39] local.INFO: Samsung Galaxy Z Fold2 5G  
+[2021-06-08 04:21:39] local.INFO: 50.000.000₫  
+[2021-06-08 04:21:39] local.INFO: 0  
+[2021-06-08 04:21:39] local.INFO: Samsung Galaxy Z Fold2 5G Đặc Biệt  
+[2021-06-08 04:21:39] local.INFO: 50.000.000₫  
+[2021-06-08 04:21:39] local.INFO: 0  
+[2021-06-08 04:21:39] local.INFO: iPhone 12 Pro Max 512GB  
+[2021-06-08 04:21:39] local.INFO: 41.490.000₫  
+[2021-06-08 04:21:39] local.INFO: 0  
+[2021-06-08 04:21:39] local.INFO: iPhone 12 Pro 512GB  
+[2021-06-08 04:21:39] local.INFO: 36.490.000₫  
+[2021-06-08 04:21:39] local.INFO: 0  
+[2021-06-08 04:21:39] local.INFO: iPhone 12 Pro Max 256GB  
+[2021-06-08 04:21:39] local.INFO: 32.490.000₫  
+[2021-06-08 04:21:39] local.INFO: 2  
+[2021-06-08 04:21:40] local.INFO: iPhone 12 Pro Max 128GB  
+[2021-06-08 04:21:40] local.INFO: 30.990.000₫  
+[2021-06-08 04:21:40] local.INFO: 3  
+[2021-06-08 04:21:40] local.INFO: Samsung Galaxy S21 Ultra 5G 256GB  
+[2021-06-08 04:21:40] local.INFO: 28.990.000₫  
+[2021-06-08 04:21:40] local.INFO: 0  
+[2021-06-08 04:21:40] local.INFO: iPhone 12 Pro 256GB  
+[2021-06-08 04:21:40] local.INFO: 28.490.000₫  
+[2021-06-08 04:21:40] local.INFO: 0  
+[2021-06-08 04:21:40] local.INFO: OPPO Find X3 Pro 5G  
+[2021-06-08 04:21:40] local.INFO: 26.990.000₫  
+[2021-06-08 04:21:40] local.INFO: 0  
